@@ -42,7 +42,7 @@ ComplexNumber ComplexNumber::operator*(const ComplexNumber &c){
 }
 
 ComplexNumber operator*(double a, const ComplexNumber &c){
-return ComplexNumber(a*c.real,a*c.imag);
+	return ComplexNumber(a*c.real,a*c.imag);
 }
 						
 ComplexNumber ComplexNumber::operator/(const ComplexNumber &c){
